@@ -1,0 +1,12 @@
+[
+    {
+        "id": 1,
+        "name": "postermon",
+        "type": "eletrico"
+    },
+    {
+        "id": 2,
+        "name": "picamon",
+        "type": "fogo"
+    }
+]

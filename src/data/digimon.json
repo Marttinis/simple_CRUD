@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Agumon",
+        "type": "Dinosaur"
+    },
+    {
+        "name": "Gabumon",
+        "type": "Reptile"
+    },
+    {
+        "name": "Patamon",
+        "type": "Mammal"
+    },
+    {
+        "name": "Gatomon",
+        "type": "Mammal"
+    },
+    {
+        "name": "Veemon",
+        "type": "Dragon"
+    }
+]
