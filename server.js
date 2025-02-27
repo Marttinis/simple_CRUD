@@ -29,7 +29,18 @@ app.post("/filme", async (req, res) => {
     const newFilme = await prisma.filme.create({data: body}) 
     res.status(201).json(newFilme);
  
-}) 
+})
+
+
+app.put("/filme/:id", async (req,res)=> {
+    const id = parseInt(req.params.id);
+    const body = req.body;
+
+    const updateFilme = await prisma.filme.update({data: body,  where: { id } })
+
+    res.status(200).json({messsage: "Filme atualizado com sucesso"}) 
+
+})
 
 
 app.delete("/filme/:id", async (req, res)=>{
